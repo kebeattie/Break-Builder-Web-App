@@ -10,3 +10,52 @@ html {
 header {
   border: 10px solid black;
 }
+
+.ball {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 100px auto;
+  position: relative;
+  box-shadow: inset 5px -5px 20px 1px rgba(0,0,0,.3);
+}
+
+.red{
+  background: darkred
+}
+
+.green{
+  background: green;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.brown {
+  background: saddlebrown;
+}
+
+.blue {
+  background: darkblue;
+}
+
+.pink {
+  background: lightpink;
+}
+
+.black {
+  background: black;
+}
+
+.balls{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
