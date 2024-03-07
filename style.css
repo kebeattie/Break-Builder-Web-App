@@ -1,35 +1,49 @@
 html {
   height: 100%;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .title {
   text-align: center;
 }
+body{
+  background-color: darkgreen;
+  font-family: MetaWebPro-Bold,sans-serif;
+}
 
 header {
   border: 10px solid black;
+  width: 400px;
+  margin: 50px auto 0px auto;
+  background-color: rgb(61,8,2); 
+  background-image: url("wood.png");
+  color: white;
+  border-radius: 10px;
 }
 
 .ball {
-  width: 250px;
-  height: 250px;
+  width: 100px;
+  /* min-width: 50px; */
+  height: 100px;
   border-radius: 50%;
-  margin: 100px auto;
+  margin: 10px auto;
   position: relative;
   box-shadow: inset 5px -5px 20px 1px rgba(0,0,0,.3);
+
 }
 
+
 .red{
-  background: darkred
+  background: rgb(186,2,2);
 }
 
 .green{
-  background: green;
+  background: rgb(15,60,3);
 }
 
 .yellow {
-  background: yellow;
+  background: rgb(252,191,15);
 }
 
 .brown {
@@ -37,11 +51,11 @@ header {
 }
 
 .blue {
-  background: darkblue;
+  background: rgb(3,1,102);
 }
 
 .pink {
-  background: lightpink;
+  background: rgb(203,67,87);
 }
 
 .black {
@@ -58,4 +72,49 @@ header {
   max-width: 1400px;
   margin: 0 auto;
   padding: 20px 10px;
+}
+
+.container{
+  width: 400px;
+  margin: 10px auto;
+  background-color: rgb(25,158,15);
+  padding-top: 20px;
+  border:10px solid rgb(65,32,25);
+  border-radius: 10px;
+  padding:0;
+}
+
+
+
+.score {
+  display: flex;
+  justify-content: space-evenly;
+  width: 400px;
+  margin: 0px auto;
+  border: 10px solid black;
+  border-radius: 10px;
+  height: 70px;
+  background-image: url("wood.png");
+  background-color: rgb(61,8,2);
+  color: white;
+  
+}
+
+.break-number {
+  margin-top: 20px;
+  margin-left: -50px;
+  font-weight: bold;
+  
+}
+
+.break-text {
+  margin-top: 20px;
+  margin-left: -25px;
+}
+
+#reset{
+  margin-top: 22px;
+  height: 40px;
+  width: 80px;
+  border-radius: 10px;
 }
