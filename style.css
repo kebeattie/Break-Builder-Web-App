@@ -17,7 +17,7 @@ header {
   width: 400px;
   margin: 50px auto 0px auto;
   background-color: rgb(61,8,2); 
-  background-image: url("wood.png");
+  background-image: url("Images/wood.png");
   color: white;
   border-radius: 10px;
 }
@@ -29,14 +29,21 @@ header {
   border-radius: 50%;
   margin: 10px auto;
   position: relative;
-  box-shadow: inset 5px -5px 20px 1px rgba(0,0,0,.3);
+  box-shadow: inset 5px -5px 20px 1px rgba(0,0,0,.3); 
 
+}
+
+.ball img{
+  width: 100%;
+  height: 100%;
 }
 
 
 .red{
-  background: rgb(186,2,2);
+   background: rgb(186,2,2);
 }
+
+
 
 .green{
   background: rgb(15,60,3);
@@ -77,11 +84,12 @@ header {
 .container{
   width: 400px;
   margin: 10px auto;
-  background-color: rgb(25,158,15);
+  background-color: darkgreen;
   padding-top: 20px;
   border:10px solid rgb(65,32,25);
   border-radius: 10px;
   padding:0;
+  background-image: url("Images/greenbaize.jpg");
 }
 
 
@@ -94,7 +102,7 @@ header {
   border: 10px solid black;
   border-radius: 10px;
   height: 70px;
-  background-image: url("wood.png");
+  background-image: url("Images/wood.png");
   background-color: rgb(61,8,2);
   color: white;
   
