@@ -13,13 +13,14 @@ body{
 }
 
 header {
-  border: 10px solid black;
-  width: 400px;
+  width: 420px;
   margin: 50px auto 0px auto;
   background-color: rgb(61,8,2); 
   background-image: url("Images/wood.png");
   color: white;
   border-radius: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
 
 .ball {
@@ -97,14 +98,15 @@ header {
 .score {
   display: flex;
   justify-content: space-evenly;
-  width: 400px;
+  width: 420px;
   margin: 0px auto;
-  border: 10px solid black;
+  /* border: 10px solid rgb(65,32,25); */
   border-radius: 10px;
   height: 70px;
   background-image: url("Images/wood.png");
   background-color: rgb(61,8,2);
   color: white;
+  padding: 5px 0 5px 0;
   
 }
 
