@@ -1,3 +1,5 @@
+alert ("Welcome to the Break Builder! Click on the ball you potted to keep track of your current break");
+
 let breakScore = 0
 document.getElementById('output').innerHTML = breakScore;
 
