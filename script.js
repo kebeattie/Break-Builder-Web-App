@@ -53,8 +53,7 @@ function onefourseven(){
   if (breakScore >= 147) {
     breakScore = 147;
     document.getElementById('output').innerHTML = breakScore;
-    alert("Congratulations! You have reached the maximum break score of 147. You have mastered the art of snooker!");
-    reset();
+    // reset();
   }
   
 }

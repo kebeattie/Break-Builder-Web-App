@@ -8,7 +8,7 @@ html {
   text-align: center;
 }
 body{
-  background-color: darkgreen;
+  background-color: black;
   font-family: MetaWebPro-Bold,sans-serif;
 }
 
@@ -30,7 +30,7 @@ header {
   border-radius: 50%;
   margin: 10px auto;
   position: relative;
-  box-shadow: inset 5px -5px 20px 1px rgba(0,0,0,.3); 
+  /* box-shadow: inset 5px -5px 20px 1px rgba(0,0,0,.3);  */
 
 }
 
@@ -39,8 +39,11 @@ header {
   height: 100%;
 }
 
+.ball img:hover {
+  opacity: 75%;
+}
 
-.red{
+/* .red{
    background: rgb(186,2,2);
 }
 
@@ -52,13 +55,13 @@ header {
 
 .yellow {
   background: rgb(252,191,15);
-}
+} */
 
-.brown {
+/* .brown {
   background: saddlebrown;
-}
+} */
 
-.blue {
+/* .blue {
   background: rgb(3,1,102);
 }
 
@@ -68,7 +71,7 @@ header {
 
 .black {
   background: black;
-}
+} */
 
 .balls{
   display: flex;
